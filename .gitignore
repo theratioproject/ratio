@@ -1,0 +1,50 @@
+
+# Handle files endings automatically for files as text and leave
+# all files detected as binary untouched
+* text=auto
+
+# Reserve extensions for linux and unix files 
+*.sh text eol=lf
+*.bash text eol=lf
+*.ratio text eol=lf
+*.bat text eol=crlf
+
+*.gch
+*.dylib
+*.o
+*.zip
+*.lib
+*.def
+*.exp
+*.obj
+*.cod
+*.db
+*.vscode
+*@@
+*ilk
+*idb
+*pdb
+*.lastbuildstate
+*.unsuccessfulbuild
+*.tlog
+*.cache
+*.log
+*.obj
+*.ilk
+*.stackdump
+*.orig
+tasks.json
+.DS_STORE
+
+#simple-lang
+
+*.complex
+*simple.so
+
+.vscode/
+*vscode/
+
+*/dist/
+
+build/*.exe
+build/*.obj
